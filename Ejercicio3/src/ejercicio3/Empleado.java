@@ -14,7 +14,8 @@ public class Empleado {
     public static final double descuentosIGSS = 0.03;
     public static final double descuentosIRTRA = 0.01;
     public static final double descuentosINTECAP= 0.01;
-    //atributos de guardado de resultados de los calculos
+    
+    //atributos de resultados de los calculos    
     double calculoSalarioNeto;
     double pagoHorasExtras;
     double montoIgss;

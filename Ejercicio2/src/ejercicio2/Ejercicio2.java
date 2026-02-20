@@ -7,7 +7,7 @@ public class Ejercicio2 {
         int[][] resultadoSuma = new int[3][3];
         int matriz1[][] = new int[3][3];
         int matriz2[][] = new int[3][3];
-      
+        System.out.println("Escribe los datos de 2 Matrices 3X3");
        System.out.println("ESCRIBE LOS DATOS DE LA MATRIZ 1");
        for(int f = 0; f < 3; f++){
            for(int c = 0; c < 3; c++){   
@@ -46,7 +46,7 @@ public class Ejercicio2 {
           System.out.println("1. Suma de matrices");
           System.out.println("2. Resta de matrices");
           System.out.println("3. Multiplicacion de matrices");
-          System.out.println("4. Determinar si la matriz resultante de la suma es simétrica");
+          System.out.println("4. Determinar si la matriz resultante de la suma es simetrica");
           System.out.println("5. Salir");
           opcion = teclado.nextInt();
           

@@ -8,7 +8,7 @@ public class Ejercicio1 {
       
       int opcion;  
        String oracion;
-       System.out.println("Escribe una frase");
+       System.out.println("Escribe una Oracion");
        oracion = teclado.nextLine();
            
       do{

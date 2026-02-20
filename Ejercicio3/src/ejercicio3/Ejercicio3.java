@@ -7,8 +7,8 @@ public class Ejercicio3 {
         Empleado empleado = new Empleado();
         Operaciones operacion = new Operaciones();
         
-        Empleado lista[] = new Empleado[10];
-        for(int i = 0; i<10; i++){
+        Empleado lista[] = new Empleado[1];
+        for(int i = 0; i<lista.length; i++){
             lista[i] = new Empleado();
             System.out.println("Escribe los datos del Empleado "  + (i+1));
             
@@ -48,7 +48,7 @@ public class Ejercicio3 {
         System.out.printf("\n%-7s %-15s %-14s %-14s %-16s %-10s %-10s %-10s %-18s %-12s\n", 
         "Codigo", "Nombre", "Salario Base", "Horas Extras", "Bonificaciones", "IGSS", "IRTRA", "INTECAP", "Tot. Descuentos", "Neto");
         System.out.println("---------------------------------------------------------------------------------------------------------------------------------------");
-        for(int j = 0; j < 10; j++){
+        for(int j = 0; j < lista.length; j++){
         System.out.printf("%-7d %-15s %-14.2f %-14.2f %-16.2f %-10.2f %-10.2f %-10.2f %-18.2f %-12.2f\n", 
         lista[j].getCodigo(), 
         lista[j].getNombre(), 

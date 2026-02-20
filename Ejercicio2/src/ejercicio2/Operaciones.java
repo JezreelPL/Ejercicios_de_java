@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class Operaciones {
     Scanner teclado = new Scanner(System.in);
     
+    //suma de las matrices 
     public int[][] suma(int[][] matriz1, int[][] matriz2) {     
         int suma[][] = new int[3][3];
 
@@ -23,7 +24,7 @@ public class Operaciones {
         return suma;
     }
     
-    
+    //Comprobacion si la matriz es simetrica
     public void comprobarSimetria(int[][] matrizResultante) {
     boolean Simetrica = true;
 
@@ -43,7 +44,7 @@ public class Operaciones {
         System.out.println("La matriz NO es simetrica.");
     }
 }   
-  
+  //Resta de las matrices
     public void resta(int[][] matriz1, int[][] matriz2){
         int resta[][] = new int[3][3]; 
         //resta de matrices
@@ -63,7 +64,7 @@ public class Operaciones {
        }   
     }
     
-    
+    //multiplicacion de las matrices
     public void multiplicacion(int[][] matriz1, int[][] matriz2){
        int multiplicacion[][] = new int [3][3]; 
        
